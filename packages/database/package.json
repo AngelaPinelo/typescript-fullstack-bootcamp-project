@@ -17,5 +17,9 @@
     "db:generate": "prisma generate",
     "db:migrate": "prisma db push --skip-generate",
     "db:seed": "tsx ./src/seeds.ts"
+  },
+
+  "exports": {
+    ".": "./src/index.ts"
   }
 }
